@@ -8,7 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <SecondApp /> */}
+    <SecondApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

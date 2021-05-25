@@ -7,6 +7,9 @@ function TopBanner({ handleOnClick }) {
       <div className="close-button" onClick={handleOnClick}>
         X
       </div>
+      <p>
+        Some text inside of a p tag. Some more text. And more. And more still.
+      </p>
     </div>
   );
 }

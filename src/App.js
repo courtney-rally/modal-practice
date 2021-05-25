@@ -4,11 +4,7 @@ import React, { useState } from "react";
 import Modal from "./Modal";
 
 function App() {
-  const [showModal, setShowModal] = useState(false);
-
-  const handleOpenModal = () => {
-    setShowModal(true);
-  };
+  const [showModal, setShowModal] = useState(true);
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -16,13 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="App-container" style={{ opacity: showModal ? 0.25 : 1 }}>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello World</h1>
-        <button onClick={handleOpenModal} disabled={showModal}>
-          Show Modal
-        </button>
-      </div>
+      <img src={logo} className="App-logo" alt="logo" />
+      <h1>Hello World</h1>
       {showModal && <Modal handleCloseModal={handleCloseModal} />}
     </div>
   );

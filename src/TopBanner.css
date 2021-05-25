@@ -9,10 +9,18 @@
     padding: 10px;
   }
 
+  p {
+  }
+
   .banner {
+    background-color: white;
     border: gray solid 5px;
     border-left: none;
     border-right: none;
     height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
   }
 }
