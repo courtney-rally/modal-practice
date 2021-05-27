@@ -1,5 +1,5 @@
 @media only screen and (min-width: 600px) {
-  .banner {
+  .top-banner {
     display: none;
   }
 }
@@ -12,7 +12,7 @@
   p {
   }
 
-  .banner {
+  .top-banner {
     background-color: white;
     border: gray solid 5px;
     border-left: none;

@@ -3,7 +3,7 @@ import "./TopBanner.css";
 
 function TopBanner({ handleOnClick }) {
   return (
-    <div className="banner">
+    <div className="top-banner">
       <div className="close-button" onClick={handleOnClick}>
         X
       </div>
